@@ -1,0 +1,36 @@
+.chat-wrapper {
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 2px 0px #00000017;
+	max-width:700px;
+	min-width:500px;
+}
+
+#message-box {
+    width: 97%;
+    display: inline-block;
+    height: 300px;
+    background: #eee;
+    box-shadow: inset 0px 0px 2px #00000017;
+    overflow: auto;
+    padding: 10px;
+}
+
+.user-panel{
+    margin-top: 10px;
+}
+
+
+input[type=text]#name{
+    width:20%;
+}
+
+input[type=text]#message{
+    width:60%;
+}
+
+button#send-message {
+    border: none;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 2px #0000001c;
+}

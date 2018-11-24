@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>WebChat</title>
-    <script src="js/socket_client.js"></script>
-</head>
+    <head>
+        <title>WebChat</title>
+        <link href="css/webchat.css" rel="stylesheet" type="text/css">
+        <script src="js/socket_client.js"></script>
+        <script src="js/webchat.js"></script>
+    </head>
 
-<body>
-    <h1>WebChat</h1>
-    <p id='date'></p>
-</body>
+    <body>
+        <h1>WebChat</h1>
+        <p id='date'></p>
+
+        <div class="chat-wrapper">
+            <div id="message-box"></div>
+            <div class="user-panel">
+                <input type="text" name="name" id="name" placeholder="Your Name" maxlength="15" />
+                <input type="text" name="message" id="message" placeholder="Type your message here..." maxlength="100" />
+                <button id="send-message" onclick="send_message()">Send</button>
+            </div>
+        </div>
+    </body>
 </html>
