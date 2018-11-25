@@ -16,6 +16,16 @@ data_ws.onopen = function () {
 
 data_ws.onmessage = function (message) {
     console.log('new message: %s', message.data)
-    
-    receive_message(JSON.parse(message.data));
+
+    msg = JSON.parse(message.data);
+
+    if(msg.type == 'clear_all')
+    {
+        document.getElementById('message-box').innerHTML = "";
+    }
+    else{
+        msg.forEach(function each(_msg) {
+            receive_message(_msg);
+        });
+    }    
 }

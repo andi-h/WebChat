@@ -26,10 +26,10 @@ input[type=text]#name{
 }
 
 input[type=text]#message{
-    width:60%;
+    width:50%;
 }
 
-button#send-message {
+button {
     border: none;
     padding: 5px 15px;
     box-shadow: 2px 2px 2px #0000001c;
