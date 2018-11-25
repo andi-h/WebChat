@@ -20,3 +20,6 @@ The node.js server starts a HTTP Webserver, provides Websocket services and save
   node <PROJECT_DIR>\server.js
   ```
 5. open multiple instances of the Website in a browser (_http://localhost_)
+
+## Running Application
+![alt text](https://github.com/andi-h/WebChat/blob/master/documentation/WebChat.jpg "Running WebChat example")
