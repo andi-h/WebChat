@@ -12,9 +12,7 @@ The node.js server starts a HTTP Webserver, provides Websocket services and save
 3. install node.js packages
   ```
   cd <PROJECT_DIR>
-  npm install express
-  npm install ws
-  npm install mysql
+  npm install
   ```
 4. start server
   ```
