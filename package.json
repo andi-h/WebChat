@@ -1,0 +1,34 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "A simple Chat application for demonstration purposes of full duplex client-server communication using node.js, Express, Websockets and MySQL. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andi-h/WebChat.git"
+  },
+  "keywords": [
+    "mysql",
+    "websockets",
+    "javascript",
+    "nodejs",
+    "express",
+    "chat",
+    "ws"
+  ],
+  "author": "Andreas Hirtenlehner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andi-h/WebChat/issues"
+  },
+  "homepage": "https://github.com/andi-h/WebChat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "ws": "^6.1.2"
+  }
+}
